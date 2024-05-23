@@ -1,0 +1,30 @@
+{
+  "name": "multiple-of-3",
+  "version": "1.0.3",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "prepublishOnly": "pnpm build"
+  },
+  "main": "dist/multiple-of-3.js",
+  "author": "comuafor",
+  "license": "GPL-3.0-or-later",
+  "description": "The library validates if the number is multiple of three.",
+  "keywords": [
+    "multiple",
+    "maths"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "tag": "latest"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0"
+  },
+  "dependencies": {
+    "vite-plugin-dts": "^3.9.1"
+  }
+}
